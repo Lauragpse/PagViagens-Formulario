@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <h1><img src="logo.png" width="450px"></h1>
+    <form action="/submit" method="post">
+        <h2>Formulário de Cadastro:</h2>
+
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="celular">Celular:</label><br>
+        <input type="tel" id="celular" name="celular"><br>
+        <label for="endereco">Endereço:</label><br>
+        <input type="text" id="endereco" name="endereco"><br>
+        <label for="idade">Idade:</label><br>
+        <input type="number" id="idade" name="idade"><br>
+        <label for="sexualidade">Sexualidade:</label><br>
+        <select id="sexualidade" name="sexualidade">
+            <option value="">Selecione...</option>
+            <option value="heterosexual">Heterossexual</option>
+            <option value="homosexual">Homossexual</option>
+            <option value="bisexual">Bissexual</option>
+            <option value="asexual">Assexual</option>
+            <option value="pansexual">Pansexual</option>
+            <option value="outro">Outro</option>
+        </select><br>
+        <label for="nascimento">Data de Nascimento:</label><br>
+        <input type="date" id="nascimento" name="nascimento"><br>
+        <label for="cpf">CPF:</label><br>
+        <input type="text" id="cpf" name="cpf"><br>
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha"><br><br>
+        <section>
+            <button>
+                <a href="home.html">Cadastrar</a>
+            </button>
+            
+            <button>
+                <a href="login.html">Voltar</a>
+            </button>
+
+        </section>
+    </form>
+</body>
+</html>

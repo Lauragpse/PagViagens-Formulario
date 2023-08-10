@@ -1,0 +1,126 @@
+:root{
+    --var-color-marrom:rgb(74, 67, 67);
+    --var-color-branco: white;
+    --var-color-azul: rgb(58, 173, 199);;
+}
+
+.atalhos{
+    display: flex;
+    justify-content: center;
+    padding-left: 45px;
+    
+}
+nav > a {
+    margin: 35px;
+    text-decoration: none;
+    color: var(--var-color-branco);
+    
+    
+}
+nav > a:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 8px;
+    text-decoration-color: var(--var-color-marrom);
+    padding: 3px;
+    transition: padding 0.6s;
+    border-radius: 30px;
+    
+
+}
+.menu{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    background-color: var(--var-color-azul);
+    color: var(--var-color-branco);
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px;
+    
+}
+.logo{
+    padding-right: 250px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    border: 1px solid var(--var-color-marrom);
+    color: var(--var-color-marrom);
+    background-image: url(mar3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    margin-top: 0px;
+    padding: 200px;
+    font-family: 'Merriweather', serif;
+}
+
+    
+
+
+h2{
+    text-align: center;
+    color: var(--var-color-marrom);
+    font-size: 60px;
+    font-family:'Dancing Script', cursive;
+}
+
+
+section div {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    color: var(--var-color-marrom);
+    font-weight: bold;
+}
+section img {
+    display: flex;
+    margin: 0 auto;
+    width: 350px;
+    height: 200px;
+}
+
+.imagens{
+    display: flex;
+    justify-content: center;
+}
+
+.video{
+    text-align: center;
+    margin-top: 80px;
+}
+section img:hover {
+    background-color: var(--var-color-azul);
+    
+    padding: 10px;
+    transition: padding 0.3s;
+    border-radius: 30px;
+
+}
+
+footer{
+    text-align: center;
+    background-color: var(--var-color-azul);
+    margin-top: 100px;
+    padding: 80px;
+    color: var(--var-color-branco);
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;;
+}
+
+.linkedin{
+    text-decoration: none;
+    color: var(--var-color-branco);
+}
+
+.texto > p{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 20px;
+}
