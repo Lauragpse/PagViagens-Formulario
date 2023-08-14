@@ -19,16 +19,25 @@
         <input type="password" id="password" name="password"><br><br>
         <section>
             <button>
-                <a href="index.html">Entrar</a>
+                <a id="meuBotao" href="index.html">Entrar</a>
             </button>
             <button>
-                <a href="cadastrar.html">Cadastro</a>
+                <a  href="cadastrar.html">Cadastro</a>
             </button>
-            
+
         </section>
+    </form>
+
+
+    
+    <script>
+        document.getElementById("meuBotao").addEventListener("click", function () {
+            alert("Você está logado.");
+        });
+    </script>
     
 
-    </form>
+
 
 </body>
 

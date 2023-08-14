@@ -39,7 +39,7 @@
         <input type="password" id="senha" name="senha"><br><br>
         <section>
             <button>
-                <a href="index.html">Cadastrar</a>
+                <a id="CadastroSucesso" href="index.html">Cadastrar</a>
             </button>
             
             <button>
@@ -48,5 +48,11 @@
 
         </section>
     </form>
+
+    <script>
+        document.getElementById("CadastroSucesso").addEventListener("click", function () {
+        alert("cadastro realizado com sucesso!");
+        });
+    </script>
 </body>
 </html>

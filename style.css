@@ -70,7 +70,38 @@ h2{
     font-family:'Dancing Script', cursive;
 }
 
+.imagens section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
 
+.imagens div {
+    flex: 0 0 calc(33.33% - 20px); /* Três colunas, com espaço entre */
+    text-align: center;
+    margin: 10px;
+}
+.imagens img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.imagens div:hover img {
+    background-color: var(--var-color-azul);
+    padding: 10px;
+    transition: padding 0.3s;
+}
+@media (max-width: 768px) {
+    .imagens div {
+        flex: 0 0 calc(50% - 20px); /* Duas colunas, com espaço entre */
+    }
+}
+
+
+/*
 section div {
     display: inline-block;
     text-align: center;
@@ -95,6 +126,8 @@ section img {
     text-align: center;
     margin-top: 80px;
 }
+*/
+/*
 section img:hover {
     background-color: var(--var-color-azul);
     
@@ -102,7 +135,7 @@ section img:hover {
     transition: padding 0.3s;
     border-radius: 30px;
 
-}
+} */
 
 footer{
     text-align: center;
@@ -124,3 +157,76 @@ footer{
     text-align: center;
     font-size: 20px;
 }
+
+/* responsividade celular */
+
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        padding: 0;
+    }
+    .atalhos {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav > a {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+        padding: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    section img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .texto > p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 40px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .video {
+        padding: 40px;
+        font-size: 18px;
+    }
+}
+
+
+.video {
+    text-align: center;
+    margin-top: 80px;
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 768px) {
+    .video {
+        margin-top: 40px; /* Espaçamento menor */
+    }
+    
+    iframe {
+        width: 100%; /* Ocupa todo o espaço disponível */
+        height: auto; /* Altura ajustável de acordo com a largura */
+    }
+}
+
+
