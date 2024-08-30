@@ -2,9 +2,9 @@
   <h1>Guia de Viagens - Explore o Mundo com Nosso Guia Completo!</h1>
     <p>Este projeto foi criado para oferecer um guia de viagens dinâmico e visualmente atraente, ideal para quem deseja explorar destinos ao redor do mundo. Com uma interface amigável e informações detalhadas sobre os melhores destinos, este guia é perfeito para ajudar os viajantes a planejar suas próximas aventuras.</p>
     <h2>Pode ser acessado por meio do link: </h2>
-  <p> <a href="" target="_blank" >Clique aqui para acessar!</a></p>  
+  <p> <a href="https://lauragpse.github.io/PagViagens-Formulario/" target="_blank" >Clique aqui para acessar!</a></p>  
 <br>
-<img src='' width='250px' >
+<img src='https://github.com/Lauragpse/PagViagens-Formulario/blob/main/img/telaa.png' width='750px' >
 <br>
 
   <h2>Descrição do Projeto</h2>
